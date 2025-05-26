@@ -1,0 +1,8 @@
+framework module "Openpano" {
+	header "ref.h"
+    header "Openpano.objc.h"
+    header "Universe.objc.h"
+    header "Openpano.h"
+
+    export *
+}
