@@ -22,6 +22,8 @@ include_directories(${EIGEN3_INCLUDE_DIRS})
 # find sources
 file(GLOB SOURCES feature/*.cc stitch/*.cc lib/*.cc)
 
+# Add CGO wrapper
+list(APPEND SOURCES cgo_wrapper.cc)
 
 add_library(openpano ${SOURCES})	# TODO shared?
 target_link_libraries(openpano ${JPEG_LIBRARY} lodepng)

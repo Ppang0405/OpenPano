@@ -1,0 +1,3 @@
+module openpano
+
+go 1.24.1
