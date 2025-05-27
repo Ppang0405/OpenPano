@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/.cxx/RelWithDebInfo/34112z5b/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/.cxx/RelWithDebInfo/34112z5b/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "openpano-android::@6890427a1f51a3e7e1df": {
+      "artifactName": "openpano-android",
+      "abi": "x86_64",
+      "output": "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/jniLibs/x86_64/libopenpano-android.so",
+      "runtimeFiles": []
+    }
+  }
+}

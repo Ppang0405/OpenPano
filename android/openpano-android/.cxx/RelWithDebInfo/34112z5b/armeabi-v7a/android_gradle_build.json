@@ -1,0 +1,39 @@
+{
+  "buildFiles": [
+    "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/.cxx/RelWithDebInfo/34112z5b/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/.cxx/RelWithDebInfo/34112z5b/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "openpano-android::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "openpano-android",
+      "output": "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/jniLibs/armeabi-v7a/libopenpano-android.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/jeremynguyen/Library/Android/sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/jeremynguyen/Library/Android/sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}

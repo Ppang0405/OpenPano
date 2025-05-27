@@ -1,0 +1,20 @@
+                        -H/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=/Users/jeremynguyen/Library/Android/sdk/ndk/27.1.12297006
+-DCMAKE_ANDROID_NDK=/Users/jeremynguyen/Library/Android/sdk/ndk/27.1.12297006
+-DCMAKE_TOOLCHAIN_FILE=/Users/jeremynguyen/Library/Android/sdk/ndk/27.1.12297006/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_CXX_FLAGS=-std=c++11 -frtti -fexceptions
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/build/intermediates/cxx/RelWithDebInfo/34112z5b/obj/arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/build/intermediates/cxx/RelWithDebInfo/34112z5b/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-B/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/.cxx/RelWithDebInfo/34112z5b/arm64-v8a
+-GNinja
+-DANDROID_STL=c++_shared
+                        Build command args: []
+                        Version: 2

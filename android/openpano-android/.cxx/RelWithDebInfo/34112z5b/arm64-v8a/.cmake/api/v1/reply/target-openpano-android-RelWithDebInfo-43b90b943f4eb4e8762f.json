@@ -1,0 +1,496 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/jniLibs/arm64-v8a/libopenpano-android.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -frtti -fexceptions -DANDROID -DUSE_JPEG=0 -DDISABLE_JPEG -O2 -g -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-O0"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ANDROID=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_JPEG=0"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__ANDROID__=1"
+				},
+				{
+					"define" : "openpano_android_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/cpp/../../../../../src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/cpp/../../../../../src/feature"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/cpp/../../../../../src/stitch"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/cpp/../../../../../src/common"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/cpp/../../../../../src/lib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/cpp/../../../../../src/third-party"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/cpp/../../../../../src/third-party/lodepng"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/android/openpano-android/src/main/cpp/../../../../../src/third-party/eigen"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/jeremynguyen/Library/Android/sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "openpano-android::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  -Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-landroid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-ljnigraphics",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/Users/jeremynguyen/Library/Android/sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+		}
+	},
+	"name" : "openpano-android",
+	"nameOnDisk" : "libopenpano-android.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/feature/brief.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/feature/dist.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/feature/dog.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/feature/extrema.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/feature/feature.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/feature/gaussian.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/feature/matcher.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/feature/orientation.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/feature/sift.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/blender.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/camera_estimator.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/camera.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/cylstitcher.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/debug.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/homography.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/incremental_bundle_adjuster.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/multiband.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/stitcher.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/stitcher_image.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/stitcherbase.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/transform_estimate.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/stitch/warp.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/lib/color.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/lib/config.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/lib/debugutils.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/lib/imgio.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/lib/imgproc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/lib/kdtree.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/lib/matrix.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/lib/planedrawer.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/lib/polygon.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/lib/timer.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/lib/utils.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Volumes/KINGSTON/_kingston_misc/Ppang0405_OpenPano/src/third-party/lodepng/lodepng.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "android_wrapper.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
