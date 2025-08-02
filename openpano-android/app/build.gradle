@@ -11,6 +11,9 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0.0"
+        
+        // Set custom AAR name
+        archivesBaseName = 'openpano-android'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         
@@ -22,7 +25,7 @@ android {
         }
         
         ndk {
-            abiFilters 'arm64-v8a'  // Only build for arm64 to test
+            abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86_64', 'x86'
         }
     }
 
