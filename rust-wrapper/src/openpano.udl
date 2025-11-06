@@ -1,0 +1,46 @@
+// UniFFI Interface Definition Language (UDL) for OpenPano
+// This file defines the cross-platform API for Python, Swift, and Kotlin
+
+namespace openpano {
+  // High-level convenience function
+  [Throws=PanoError]
+  Panorama stitch_panorama(sequence<string> image_paths, PanoConfig? config);
+};
+
+// Configuration for panorama stitching
+dictionary PanoConfig {
+  boolean cylinder_mode;
+  boolean estimate_camera;
+  boolean trans_mode;
+  boolean ordered_input;
+  boolean crop;
+  float focal_length;
+  i32 max_output_size;
+};
+
+// Error types
+[Error]
+enum PanoError {
+  "AddImageError",
+  "StitchError", 
+  "SaveError",
+  "InvalidPath",
+  "NullPointer",
+  "NotEnoughImages",
+};
+
+// Main panorama object
+interface Panorama {
+  // Getters
+  u32 width();
+  u32 height();
+  u32 channels();
+  
+  // Save to file
+  [Throws=PanoError]
+  void save(string path);
+  
+  // Get raw bytes (RGB, 0-255)
+  bytes to_bytes();
+};
+

@@ -1,0 +1,49 @@
+[package]
+name = "openpano"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Panorama image stitching library with Python, iOS, and Android bindings"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib", "staticlib", "rlib"]
+name = "openpano"
+
+# Binary executable (compatible with original image-stitching)
+[[bin]]
+name = "image-stitching"
+path = "src/bin/image_stitching.rs"
+
+[dependencies]
+# Error handling
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Cross-platform FFI generation
+uniffi = { version = "0.25", features = ["cli"] }
+
+[build-dependencies]
+cc = "1.0"
+cmake = "0.1"
+uniffi = { version = "0.25", features = ["build"] }
+
+[dev-dependencies]
+tempfile = "3.8"
+
+# Platform-specific configurations
+[target.'cfg(target_os = "ios")'.dependencies]
+# iOS-specific dependencies if needed
+
+[target.'cfg(target_os = "android")'.dependencies]
+# Android-specific dependencies if needed
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+
+[profile.dev]
+opt-level = 1
+

@@ -1,0 +1,35 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Generated UniFFI files
+bindings/
+
+# Python
+*.pyc
+__pycache__/
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
